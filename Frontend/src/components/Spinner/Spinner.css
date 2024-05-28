@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .spinner-center{
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -4.05em;
+    left: 50%;
+    margin-left: -4em;
+  }
+.spinner {
+    width: 200px;
+    height: 200px;
+    display: grid;
+    border: 4px solid #0000;
+    border-radius: 50%;
+    border-color: rgb(19, 18, 18) #0000;
+    animation: s6 1s infinite linear;
+  }
+  
+  .spinner::before,
+  .spinner::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 20px;
+    border: inherit;
+    border-radius: 50%;
+  }
+  
+  .spinner::before {
+    border-color: #f03355 #0000;
+    animation: inherit;
+    animation-duration: .5s;
+    animation-direction: reverse;
+  }
+  
+  .spinner::after {
+    margin: 8px;
+  }
+  
+  @keyframes s6 {
+    100% {
+        transform: rotate(1turn)
+    }
+  }
+  
+  
+ 

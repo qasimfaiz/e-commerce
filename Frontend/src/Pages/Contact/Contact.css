@@ -1,0 +1,76 @@
+.contact-form-container {
+  max-width: 400px; /* Adjust the value to your desired width */
+  margin: 40px auto;
+      
+}
+.ant-form-item {
+  margin-bottom: 10px; /* Adjust the value to reduce the vertical gap */
+}
+/* Container styles */
+.contact-form-container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e2dfdf;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Form styles */
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-container form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact-form-container form .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.contact-form-container form .ant-input,
+.contact-form-container form .ant-input-affix-wrapper,
+.contact-form-container form .ant-input:hover,
+.contact-form-container form .ant-input-focused,
+.contact-form-container form .ant-input-focused:hover {
+  border-color: #ddd;
+  border-radius: 10px;
+}
+
+.contact-form-container form .ant-input:hover,
+.contact-form-container form .ant-input-focused,
+.contact-form-container form .ant-input-focused:hover {
+  box-shadow: #999;
+}
+
+.contact-form-container form .ant-input::placeholder {
+  color: #999;
+}
+
+.contact-form-container form .ant-input:focus,
+.contact-form-container form .ant-input-focused {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.contact-form-container form .ant-btn {
+  width: 100%;
+}
+
+.contact-form-container form .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.contact-form-container form .ant-btn-primary:hover,
+.contact-form-container form .ant-btn-primary:focus {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+.contact-background{
+  height: 785px !important;
+}

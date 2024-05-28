@@ -1,0 +1,56 @@
+.carousel {
+  margin-top: 5rem;
+}
+
+.product__filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.no-orders-message {
+  font-size: 18px;
+  text-align: center;
+  /* Add any additional styles as needed */
+}
+
+/* About Page */
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* profile-card */
+.profile-card {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Pagination */
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-container .page-link {
+  font-size: 16px;
+}

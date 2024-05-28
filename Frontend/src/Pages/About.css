@@ -1,0 +1,101 @@
+/* Container for the main content */
+.about-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Background image container */
+  .about-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Send the background behind the content */
+  }
+  
+  /* Background image */
+  .about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white; /* Start with white background */
+    animation: fadeInImage 5s ease forwards; /* Smooth transition over 4 seconds */
+    
+  }
+  
+  @keyframes fadeInImage {
+    0% {
+      opacity: 0; /* Initially hide the image */
+    }
+    100% {
+      opacity: 1; /* Fully display the image */
+    }
+  }
+  
+  /* Content container */
+  .about-content {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(293deg, #ffffff, #f2f2f2, #dddddd, #eeeeee);
+    animation: top-to-bottom-gradient-animation 10s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+    max-width: 800px;
+    margin-top: 49px;
+    height: 85%;
+    border-radius: 40px;
+  }
+  
+  /* Gradient animation keyframes */
+  @keyframes top-to-bottom-gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Heading style */
+  .about-heading {
+    color: #4b4a4a; /* Dark text color */
+    text-align: center;
+  }
+  
+  /* Paragraph style */
+  .about-paragraph {
+    color: #666; /* Medium gray text color */
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Adjustments for mobile devices */
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 15px;
+      margin: 30px auto;
+    }
+  }
+  
+  /* Additional styles for header adjustments */
+  .header-set {
+    margin-top: -7%;
+  }
+  
+  .head-head {
+    background: none !important;
+    padding: 0 !important;
+  }
+  
+  .header-header {
+    background: none !important;
+  }
+  
+  .text-color {
+    color: #333 !important;
+  }
+  

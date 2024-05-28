@@ -1,0 +1,182 @@
+
+.footer {
+	padding-top: 55px;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    color: white;
+	
+	/* background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    color: white;
+    border-top: 3px solid #ffffff;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.5); */
+}
+.footer-container {
+    border-top: 1px solid rgb(235, 231, 231);
+
+}
+.footer__about {
+	margin-bottom:40px;
+}
+
+.footer__about p {
+	margin-bottom: 40px;
+}
+
+.footer__logo {
+	margin-bottom: 20px;
+	margin-top: -14px;
+}
+
+.footer__payment a {
+	margin-right: 6px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.footer__payment a:last-child {
+	margin-right: 0;
+}
+
+.footer__widget {
+	margin-bottom: 30px;
+}
+
+.footer__widget h6 {
+	color: #111111;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	padding-left: 31px;
+}
+
+.footer__widget ul li {
+	list-style: none;
+}
+
+.footer__widget ul li a {
+	font-size: 14px;
+	color: white;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.footer__newslatter {
+	margin-bottom: 30px;
+}
+
+.footer__newslatter h6 {
+	color: #111111;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.footer__newslatter form {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.footer__newslatter form input {
+	height: 52px;
+    width: 98%;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    padding-left: 26px;
+    font-size: 15px;
+    color: #666666;
+}
+
+.footer__newslatter form input::-webkit-input-placeholder {
+	color: #666666;
+}
+
+.footer__newslatter form input::-moz-placeholder {
+	color: #666666;
+}
+
+.footer__newslatter form input:-ms-input-placeholder {
+	color: #666666;
+}
+
+.footer__newslatter form input::-ms-input-placeholder {
+	color: #666666;
+}
+
+.footer__newslatter form input::placeholder {
+	color: #666666;
+}
+
+.footer__newslatter form button {
+	position: absolute;
+	right: 20px;
+	top: 4px;
+}
+.footer__social{
+	display: flex;
+}
+.footer__social a {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background: #e1e1e1;
+  font-size: 17px;
+  color: #111111;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  
+	
+}
+
+.footer__social a:last-child {
+	margin-right: 0;
+	
+	
+}
+
+.footer__copyright__text {
+	border-top: 1px solid #e1e1e1;
+	padding: 18px 0 25px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.footer__copyright__text p {
+	margin-bottom: 0;
+}
+
+.footer__copyright__text a {
+	color: #5C5C5C;
+}
+
+.footer__copyright__text i {
+	color: #ca1515;
+}
+
+.footer__copyright__text a:hover {
+	color: #ca1515;
+}
+.btn-dark{
+	margin-right: -27px;
+    margin-top: 4px;
+	background-color: black;
+	padding-left: 28px;
+	border-radius: 10rem 0rem !important;
+	border: none;
+	
+}
+.mail_box{margin-left: -7px;}
+
+.sub-color{
+	background: linear-gradient(30deg, #f04b26, #BC2A8D);
+  color: inherit !important;
+  font-weight: 600 !important;
+}
+.sub-color:hover{
+	background: linear-gradient(30deg, #f89f8b, #b17a9f);
+  color: inherit !important;
+  font-weight: 600 !important;
+}
