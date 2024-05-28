@@ -295,8 +295,8 @@ router.post("/admin-login", async (req, res) => {
     // Set the JWT as an HTTP-only cookie
     res.cookie("token", accessToken, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production" ? true : "none",
-      sameSite: "None", // Allow cross-origin requests for the cookie
+       secure: process.env.NODE_ENV === "production" ? true : "none",
+       sameSite: "None", // Allow cross-origin requests for the cookie
       maxAge: 1 * 24 * 60 * 60 * 1000, // valid for 1 Day
     });
     // console.log("admin login", other);
