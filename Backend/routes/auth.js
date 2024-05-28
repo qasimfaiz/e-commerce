@@ -115,6 +115,7 @@ router.post("/login", async (req, res) => {
     res.cookie("token", accessToken, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production" ? true : "none",
+      sameSite: "None", // Allow cross-origin requests for the cookie
       maxAge: 1 * 24 * 60 * 60 * 1000, // valid for 1 Day
     });
 
@@ -133,7 +134,7 @@ router.get("/logout", (req, res) => {
     res.cookie("token", "", {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production" ? true : "none",
-      sameSite: "none",
+      sameSite: "None", // Allow cross-origin requests for the cookie
       expires: new Date(0), // Set an expiration date in the past
     });
     res.json({ message: "User logged out successfully" });
@@ -294,9 +295,8 @@ router.post("/admin-login", async (req, res) => {
     // Set the JWT as an HTTP-only cookie
     res.cookie("token", accessToken, {
       httpOnly: true,
-      secure: true,
       secure: process.env.NODE_ENV === "production" ? true : "none",
-      sameSite: "none",
+      sameSite: "None", // Allow cross-origin requests for the cookie
       maxAge: 1 * 24 * 60 * 60 * 1000, // valid for 1 Day
     });
     // console.log("admin login", other);
