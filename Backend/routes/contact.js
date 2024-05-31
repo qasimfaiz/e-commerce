@@ -21,7 +21,7 @@ router.post("/form", async (req, res) => {
 
     // send mail with defined transport object
     let mailOptions = {
-      from: `"ShopSwift-fyp" <${process.env.EMAIL}>`, // sender address
+      from: `"ShopSmart_Wiki-fyp" <${process.env.EMAIL}>`, // sender address
       to: [process.env.EMAIL], // recipient addresses
       subject: subject,
       html: `
@@ -38,7 +38,7 @@ router.post("/form", async (req, res) => {
 
     // Prepare automated response to the sender
     let automatedMailOptions = {
-      from: `"ShopSwift-fyp" <${process.env.EMAIL}>`, // sender address
+      from: `"ShopSmart_Wiki-fyp" <${process.env.EMAIL}>`, // sender address
       to: email, // recipient address is the submitter's email
       subject: "Thank you for your form submission",
       html: `
