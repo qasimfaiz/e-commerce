@@ -9,7 +9,9 @@ import {Provider} from 'react-redux'
 import {persistStore} from "redux-persist";
 
 
+
 let persistor = persistStore(store);
+
 
 ReactDOM.render(
     <Provider store={store}>
