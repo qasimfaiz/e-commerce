@@ -90,11 +90,3 @@ a:hover::after {
   .search__btn{
     margin-right: 30px;
   }
-#pre-loader{
-  background: white url(./assets/pre-loader.gif) no-repeat center;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-  background-size: 40%;
-}
